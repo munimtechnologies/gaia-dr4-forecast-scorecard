@@ -1,0 +1,14 @@
+{
+ "_how": "On Gaia DR4 day (2026-12-02, after the archive serves gaiadr4.gaia_source), copy scorecard.py, io_dr4score.py, job.py, targets.csv and test_scorecard.py unchanged into <run folder>/dr4score/ and write this as compete/gaia-dr4-scorecard/job.json with workdir set to that folder.",
+ "name": "gaia-dr4-scorecard-v1",
+ "kind": "compete",
+ "workdir": "<run folder>/dr4score",
+ "image": "python:3.12",
+ "setup": [],
+ "run": ["python -m unittest -v test_scorecard", "python job.py --out-dir /out"],
+ "network": true,
+ "data_urls": [],
+ "cpu": 1,
+ "memory_gb": 1,
+ "timeout_minutes": 120
+}

@@ -1,0 +1,31 @@
+# The 24 forecasts of PREREGISTRATION.md section 2 (frozen 2026-11-25). Made with AI agents working in MV2's name. CC BY 4.0.
+# group: detectable / not_detectable (binary forecasts), w1, w2, b3, l1. period_spec: forecast companion period(s) in days
+# (";" = alternatives in the paper, "lo-hi" = a range); ORBIT_MATCH = DR4 orbital period within 20% of any of them.
+# dr3_source_id, ra, dec: SIMBAD (cfa mirror TAP, queried 2026-11-26); the job re-queries SIMBAD and reports any change.
+# Periods: Parc et al. 2026 arXiv:2610.25152 (P rows), Triaud et al. 2025 arXiv:2510.25329 (BEBOP-4 = HD 111605, 1823.5 d),
+# Doyle et al. 2011 (Kepler-16 b, 228.8 d), Correia et al. 2005 / Benedict & Harrison 2017 (HD 202206 inner, ~256 d).
+id,group,target,simbad,dr3_source_id,ra,dec,period_spec,p,forecast
+W1,w1,HD 65216,HD 65216,5287961677550103424,118.42216487396001,-63.64732040594999,,0.435,P(RUWE > 1.15) = 0.435
+W2,w2,HD 65216,HD 65216,5287961677550103424,118.42216487396001,-63.64732040594999,,0.948,P(detectable DR3-to-DR4 proper-motion change) = 0.948
+P1,detectable,WASP-8 c,WASP-8,2312679845530628096,359.90029661347,-35.03136767178,3054.9,,detectable (SNR1 method)
+P2,detectable,WASP-34 c,WASP-34,3537110837630877568,165.39957428216,-23.86066305136,2033.4,,detectable (SNR1 2.23 one-companion model)
+P3,detectable,WASP-53 c,WASP-53,5136559128264765184,31.909206067790002,-20.66187735943,3083.7,,detectable
+P4,detectable,WASP-68 c,WASP-68,6860535606196306304,305.09577418723,-19.314699904819996,6211,,detectable
+P5,detectable,WASP-81 c,WASP-81,4244243354278985472,304.20787601297,3.294016220079999,1306,,detectable
+P6,detectable,WASP-99 c,WASP-99,4745660479479743488,39.89768080557,-50.00802199211,5795,,detectable
+P7,detectable,WASP-132 d,WASP-132,6099012478412247296,217.60912357636,-46.15920093128,1741,,detectable
+P8,not_detectable,WASP-22,WASP-22,5086537022856406272,52.8180279685,-23.819677944619997,2540,,not detectable
+P9,not_detectable,WASP-41 c,WASP-41,6160877943251930368,190.61872898318,-30.63986917943,418.0,,not detectable
+P10,not_detectable,WASP-47 c,WASP-47,2613413008919918976,331.20302564553,-12.01888853991,578.2,,not detectable
+P11,not_detectable,WASP-67,WASP-67,6868476691490044672,295.7438409772,-19.949589238799998,2244,,not detectable
+P12,not_detectable,WASP-134 c,WASP-134,2696613294311603584,327.56989714111,4.19456098704,70.2,,not detectable
+P13,not_detectable,WASP-185 c,WASP-185,6284007337003799552,214.05964034032,-19.54228018332,1061,,not detectable
+P14,not_detectable,WASP-89 (RV signal),WASP-89,6857756246957592320,313.89995598438,-18.971123778230005,1700;3000,,not detectable in DR4 (SNR1 1.09; DR5 only)
+P15,not_detectable,WASP-7 (RV signal),WASP-7,6681720724498802176,311.04258685937,-39.22523774489,1203,,not detectable
+P16,not_detectable,WASP-79 (RV signal),WASP-79,4884779765893739904,66.37090274554,-30.600447425379993,200-300,,not detectable
+P17,not_detectable,WASP-84 (RV signal),WASP-84,3078836109158636928,131.10709646329,1.8600292985800004,516,,not detectable
+P18,detectable,WASP-171 (trend),WASP-171,5376137837173646208,171.84510367501,-44.08869435731,4350,,"""could expect the detection"" (weak: detectable)"
+B1,detectable,BEBOP-4 b,HD 111605,3961485079994112896,192.57720480902998,26.15952368897,1823.5,,detectable (SNR about 40)
+B2,not_detectable,Kepler-16 b,Kepler-16,2133476355197071616,289.07573265789,51.75743964613999,228.8,,not detectable (SNR about 1)
+B3,b3,HD 202206 inner,HD 202206,6832155218215202944,318.74070252164,-20.7892115337,256,,SNR 80/70 edge-on; 400/250 if Benedict & Harrison 2017 inclinations
+L1,l1,all sky,,,,,,,"7,500 +- 2,100 giant planets detectable in DR4"
